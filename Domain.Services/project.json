@@ -1,0 +1,48 @@
+﻿{
+  "buildOptions": {
+    "emitEntryPoint": true
+  },
+  "frameworks": {
+    "netdoreapp2.0": {}
+  },
+  "dependencies": {
+    "Microsoft.NETCore.App": {
+      "version": "2.0.0",
+      "type": "build"
+    },
+    "Microsoft.EntityFrameworkCore.Design": "2.0.0",
+    "Microsoft.EntityFrameworkCore.SqlServer": "2.0.0",
+    "Microsoft.AspNetCore.Identity.": "2.0.0"
+  },
+  "tools": {
+    "Microsoft.EntityFrameworkCore.Tools": {
+      "version": "2.0.0"
+    }
+  }
+}
+
+/* 
+  http://benjii.me/2016/06/entity-framework-core-migrations-for-class-library-projects/
+
+"buildOptions": {
+        "emitEntryPoint": true
+    },
+    "frameworks": {
+        "netcoreapp1.0": { }
+    },
+    "dependencies": {
+        "Microsoft.NETCore.App": {
+            "version": "1.0.0",
+            "type": "platform"
+        },
+        "Microsoft.EntityFrameworkCore.Design": "1.0.0-preview2-final",
+        "Microsoft.EntityFrameworkCore.SqlServer": "1.0.0",
+        "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "1.0.0",
+    },
+    "tools": {
+        "Microsoft.EntityFrameworkCore.Tools": {
+            "version": "1.0.0-preview2-final"
+        }
+    }
+
+*/
